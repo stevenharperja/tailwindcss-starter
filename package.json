@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "Hello 😃!", 
-    "dev" : "tailwindcss -i ./src/input.css -o ./public/style.css --watch"
+    "test": "Hoooi 😃!",
+    "dev" : "tailwindcss -i ./src/input.css -o ./public/style.css --watch" 
   },
   "keywords": [],
   "author": "",
