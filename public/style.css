@@ -597,16 +597,6 @@ video {
   justify-content: center;
 }
 
-.bg-orange-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(249 115 22 / var(--tw-bg-opacity));
-}
-
-.bg-green-50 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(240 253 244 / var(--tw-bg-opacity));
-}
-
 .bg-green-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(34 197 94 / var(--tw-bg-opacity));
@@ -633,7 +623,7 @@ video {
 /* Your Awesome Styles */
 
 * {
-  outline: 10px dotted rgb(0, 0, 0);
+  outline: 1px dotted rgb(0, 0, 0);
 }
 
 @media (min-width: 768px) {
