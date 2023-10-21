@@ -10,18 +10,19 @@
     <script src="script.js" defer></script>
 
 </head>
-<body class="bg-green-500 h-screen flex items-center justify-center">
-    <time class="container mx-auto grid lg:grid-cols-4 md:grid-cols-2 p-4 text-white">
-      <data class="month block text-4xl text-center p-4 text-white">Month</data>
-      <data class="dayOfMonth block text-4xl text-center p-4 text-white">00</data>
-      <data class="year block text-4xl text-center p-4 text-white">0000</data>
-      <data class="dayOfWeek block text-4xl text-center p-4 text-white">SMTWTFS</data>
-      
-        <data class="hours block">HH</data>
-        <data class="minutes block">MM</data>
-        <data class="seconds block">SS</data>
-        <data class="amOrPM block">AM/PM</data>
-      
-      </time>
+<body class="bg-green-500 h-screen flex items-center justify-center grid grid-cols-1 content-center">
+  <time class="container mx-auto grid lg:grid-cols-4 md:grid-cols-2 p-4 text-white text-4xl text-center">
+    <data class="month block p-4">Month</data>
+    <data class="dayOfMonth block p-4">00</data>
+    <data class="year block p-4">0000</data>
+    <data class="dayOfWeek block p-4">SMTWTFS</data>
+    </time>
+   <time class="container mx-auto grid grid-cols-4 p-4 text-white text-3xl text-center">
+      <data class="hours block p-3">HH</data>
+      <data class="minutes block p-3">MM</data>
+      <data class="seconds block p-3">SS</data>
+      <data class="amOrPM block p-3">AM/PM</data>
+    
+    </time>
 </body>
 </html>
